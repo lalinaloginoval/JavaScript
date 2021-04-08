@@ -1,0 +1,21 @@
+:root {
+    --size: 30px;
+  }
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+tr {
+    width: var(--size);
+    height: var(--size);
+}
+
+td {
+    width: var(--size);
+    height: var(--size);
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    text-align: center;
+}
